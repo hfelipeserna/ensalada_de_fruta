@@ -1,6 +1,5 @@
 # Link to Codesandbox:
 
-https://codesandbox.io/s/red-lake-1jyqv
 
 # Getting Started with Create React App
 
