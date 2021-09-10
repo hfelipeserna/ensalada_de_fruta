@@ -8,9 +8,9 @@ class EnsaladaDeFrutas extends React.Component {
       <div>
         <h1>Ensalada de frutas. Contiene:</h1>
         <ul>
-          {data.map((frutaName, index) => (
+          {data.map((frutaName) => (
             <React.Fragment>
-                <Fruta key={index.toString()} value={frutaName.nombre} />
+                <Fruta value={frutaName.nombre} />
             </React.Fragment>
           ))}
         </ul>
