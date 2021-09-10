@@ -3,7 +3,7 @@ import React from "react";
 class Fruta extends React.Component {
   render() {
     return (
-      <li key={this.props.datos.id}>
+      <li>
         {this.props.datos}
       </li>
     );

@@ -10,7 +10,7 @@ class EnsaladaDeFrutas extends React.Component {
         <ul>
           {data.map((frutaName) => (
             <React.Fragment>
-                <Fruta datos ={frutaName.nombre} />
+                <Fruta key={frutaName.id} datos ={frutaName.nombre} />
             </React.Fragment>
           ))}
         </ul>
