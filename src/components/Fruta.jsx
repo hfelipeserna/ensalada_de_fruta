@@ -4,7 +4,7 @@ class Fruta extends React.Component {
   render() {
     return (
       <li>
-        {this.props.datos}
+        {this.props.value}
       </li>
     );
   }
